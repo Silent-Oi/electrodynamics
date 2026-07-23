@@ -1,0 +1,64 @@
+# Original textbooks are local study materials, not repository content.
+/docs/textbooks/*
+!/docs/textbooks/.gitkeep
+
+# Python bytecode, caches, environments, and packaging output.
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.venv/
+venv/
+env/
+dist/
+*.egg-info/
+
+# Jupyter temporary state.
+.ipynb_checkpoints/
+
+# Native-code build products and CMake-generated files.
+[Bb]uild/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+*.pdb
+*.ilk
+
+# LaTeX intermediate files. Keep source files and intentional PDFs.
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.run.xml
+*.synctex.gz
+*.toc
+
+# Editors and operating systems.
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
