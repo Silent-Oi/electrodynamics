@@ -1,6 +1,6 @@
 # 电动力学学习记录
 
-个人电动力学学习记录
+个人电动力学学习记录。以 Griffiths 为物理主线，目标是形成可重构、可应用、可验证的 Maxwell–Lorentz 经典电动力学结构。
 
 ## 仓库结构
 
@@ -15,7 +15,7 @@ electrodynamics/
 ├── docs/
 │   ├── textbooks/      #原始教材
 │   ├── progress/       #当前目标
-│   └── references/     #补充资料、论文、FDTD 参考资料
+│   └── references/     #补充资料
 │
 ├── learning/
 │   ├── notes/          #知识笔记
@@ -24,11 +24,12 @@ electrodynamics/
 │   ├── reconstructions/#空白回忆、阶段性知识结构重建
 │   └── logs/           #学习记录
 │
-├── projects/           #未来可能得数值实验和求解器
-│   ├── 01_field_visualization/
-│   ├── 02_poisson_solver/
-│   ├── 03_1d_maxwell/
-│   └── 04_2d_fdtd/
+├── projects/           #五个正式项目（到达相应阶段时再建立）
+│   ├── 01_poisson_solver/
+│   ├── 02_energy_momentum_audit/
+│   ├── 03_2d_fdtd/
+│   ├── 04_moving_charge/
+│   └── 05_radiation_capstone/
 │
 └── archive/            #对话归档
     └── conversations/

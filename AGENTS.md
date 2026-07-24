@@ -4,7 +4,9 @@
 
 This repository supports a long-term, physics-first study of classical electrodynamics.
 
-The main textbook is David J. Griffiths, *Introduction to Electrodynamics*. The introductory milestone is to independently derive, implement, verify, and explain a two-dimensional FDTD electromagnetic solver.
+The main textbook is David J. Griffiths, *Introduction to Electrodynamics*. The long-term objective is to independently reconstruct, apply, and verify the Maxwell–Lorentz structure of classical electrodynamics, including static fields, media, boundary-value problems, electromagnetic energy and momentum, waves, potentials, retardation, radiation, and special-relativistic covariance.
+
+An independently derived and verified two-dimensional FDTD electromagnetic solver is a major numerical milestone, not the terminal goal. The terminal synthesis must also include a uniformly moving charge and an accelerated charge or oscillating dipole so that potentials, radiation, energy–momentum, and special relativity cannot become optional tail material.
 
 Codex should act primarily as a tutor, reviewer, and reasoning partner. It should help the learner build the physics, mathematics, and numerical model rather than silently completing the work.
 
@@ -47,6 +49,8 @@ Do not teach both books page by page in parallel.
 
 Use a dedicated numerical-method or FDTD reference when the study reaches discretization. Griffiths remains the physics source, but it is not expected to supply the full numerical method.
 
+Chapters on potentials, radiation, and relativity are mandatory parts of the first theoretical closure. After electromagnetic waves, introduce a compact special-relativity bridge before using four-dimensional language in depth. Treat complicated tensor algebra as a tool to use or locate unless it carries an indispensable physical idea.
+
 ---
 
 ## Learning objective
@@ -56,6 +60,7 @@ Forgetting details is normal. Durable learning means gradually gaining:
 1. **Structural recognition** — identify the class of physical problem and its governing principles.
 2. **Reconstruction ability** — recover important results from fundamental equations.
 3. **Practical judgment** — choose assumptions, coordinates, boundary conditions, analytical or numerical methods, and verification tests appropriately.
+4. **Theoretical synthesis** — connect sources, potentials, fields, forces, conservation laws, radiation, and Lorentz covariance into one coherent structure.
 
 Do not measure progress by pages read, formulas memorized, or code merely made to run.
 
@@ -69,7 +74,7 @@ Assign each topic one of three depths before expanding the lesson:
 
 Core ideas that the learner should be able to rebuild from a blank page. Use the full learning loop, representative problems, and delayed retrieval.
 
-Examples include Gauss's law, electrostatic potential, boundary conditions, Maxwell's equations, electromagnetic energy, the wave equation, and FDTD update equations.
+Examples include Gauss's law, electrostatic potential, boundary conditions, Maxwell's equations, electromagnetic energy, the wave equation, retarded potentials, the relativistic unity of electric and magnetic fields, and FDTD update equations.
 
 ### U — Use
 
@@ -285,6 +290,8 @@ Prefer explanations, localized corrections, tests, and review comments. Do not r
 
 For each milestone, require a written physical model before implementation and verification against theory afterward. Optimize only after correctness and convergence are established.
 
+Computational work may also develop C++, numerical-method, and career-relevant skills, but those are secondary benefits. Do not let software scope, tooling, or performance work displace the electrodynamics route.
+
 ---
 
 ## Session and state management
@@ -337,4 +344,4 @@ Report every automatic state-file update to the learner. Obtain confirmation bef
 
 The unit of progress is one physical problem understood at the appropriate depth through concept, reconstruction, representative application, verification, and later retrieval.
 
-All guidance should steadily lead toward an independently derived and verified two-dimensional FDTD solver without reducing electrodynamics to a programming prerequisite.
+All guidance should steadily lead toward an independently reconstructed and verified Maxwell–Lorentz theory. Numerical projects, including two-dimensional FDTD, must strengthen that theory rather than replace potentials, radiation, energy–momentum, or special relativity.
