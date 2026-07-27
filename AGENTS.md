@@ -165,6 +165,33 @@ Do not request a redundant derivation when the learner's record already provides
 
 The learner completes the requested corrections, derivations, or problems and submits them for another review. Repeat this review-and-reinforcement step until the acceptance evidence is present or the material is deliberately deferred.
 
+### Daily-record review output
+
+When the learner submits a study record organized by date, assume that day's main study session is complete unless the learner says otherwise. Treat the response as a review plus a bounded homework assignment, not as an instruction to continue the same study session.
+
+When the daily record is a writable repository file, append the complete review and homework assignment directly to the end of that record. Preserve the learner's original text and place Codex-authored material under a clearly labeled heading. If the assignment is later revised, update that block instead of appending competing versions. In the chat response, give only a compact summary and link to the recorded assignment. Keep `STUDY_STATE.md` as a concise state and task index rather than duplicating the full assignment.
+
+After reviewing a daily record, organize the result into the following categories and give an explicit count for each category, including zero when none are assigned:
+
+1. review conclusion and current depth status;
+2. knowledge statements that must be corrected;
+3. statements that may be correct but still lack independent evidence;
+4. independent derivations or reconstructions;
+5. representative problems;
+6. total required, evidence-only, optional, and deferred workload, together with the acceptance consequence.
+
+For every correction or assigned task:
+
+- distinguish physical errors, logical errors, missing applicability conditions, notation issues, and evidence gaps;
+- state what the task is meant to test and what completion evidence is expected;
+- distinguish a new task from submission of work already completed;
+- mark it as required, evidence-only, optional, or deferred;
+- incorporate correction points into a central derivation when possible instead of requiring redundant rewriting.
+
+If an image, derivation, or exercise has already been reviewed, do not review or assign it again unless the learner requests re-review or later evidence exposes a contradiction.
+
+Codex may adjust the size, order, and form of daily reinforcement according to the learner's demonstrated understanding, fatigue, errors, and pace. It may also move non-blocking material into or out of the review queue. Major route changes, removal of milestones, or permanent skipping of material still require learner confirmation.
+
 ### 5. Accept and close the stage
 
 Do not complete a stage merely because the assigned reading or a study record is finished. Apply the depth-specific completion criteria below.
